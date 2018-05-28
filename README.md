@@ -1,4 +1,4 @@
-# Autoencoding beyond pixels using a learned similarity metric
+# Autoencoding beyond pixels
 An implementation of [Autoencoding beyond pixels using a learned similarity metric](https://arxiv.org/pdf/1512.09300.pdf) using Keras. 
 John Rufino Macasaet, Martin Roy Nabus (CoE 197-Z/EE 298)
 
@@ -45,3 +45,4 @@ python3 vae_gan.py generate
 
 ## Recommendations and Pitfalls
 1. While training on the deep learning machines provided, we noticed that the machines were not configured to use `tensorflow-gpu` (i.e. it cannot access NVIDIA cuDNN).
+2. 
