@@ -6,13 +6,13 @@ John Rufino Macasaet, Martin Roy Nabus (CoE 197-Z/EE 298)
 ### Encoder
 ![Encoder](https://s3-ap-southeast-1.amazonaws.com/celebadataset/Original/vae_cnn_encoder.png)
 ### Decoder
-![Decoder](https://s3-ap-southeast-1.amazonaws.com/celebadataset/Original/vae_cnn_decoder.png)
+![Decoder](https://i.imgur.com/TD3yVEo.png)
 ### Discriminator
-![Discriminator](https://s3-ap-southeast-1.amazonaws.com/celebadataset/Original/vae_cnn_discriminator.png)
+![Discriminator](https://i.imgur.com/GF9GiVF.png)
 ### Generator Model
-![Generator](https://s3-ap-southeast-1.amazonaws.com/celebadataset/Original/vae_cnn_genmodel.png)
+![Generator](https://i.imgur.com/L0SnRCm.png)
 ### Encoder and Decoder Trainer (VAE)
-![Encoder and Decoder Trainer (VAE)](https://s3-ap-southeast-1.amazonaws.com/celebadataset/Original/vae_cnn_vaemodel.png)
+![Encoder and Decoder Trainer (VAE)](https://i.imgur.com/zjtVQvQ.png)
 
 ## Dataset
 The dataset used for the training was the cropped and aligned version of the [Celeb-A Dataset](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html). The dataset features 202,599 images with 10,177 unique identities and annotations for 5 landmark locations and 40 binary attributes per image.
