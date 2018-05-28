@@ -1,6 +1,6 @@
 # Autoencoding beyond pixels
 An implementation of [Autoencoding beyond pixels using a learned similarity metric](https://arxiv.org/pdf/1512.09300.pdf) using Keras. 
-John Rufino Macasaet, Martin Roy Nabus (CoE 197-Z/EE 298)
+John Rufino Macasaet & Martin Roy Nabus (CoE 197-Z/EE 298)
 
 ## Architecture
 ### Encoder
@@ -19,7 +19,9 @@ The dataset used for the training was the cropped and aligned version of the [Ce
 ![celeba](http://mmlab.ie.cuhk.edu.hk/projects/celeba/intro.png)
 
 ## Using the code
-### Training
+### Dataset Folder
+The expected location of the dataset is at `./img/`
+### Training the model
 To start the training:
 ```
 python3 vae_gan.py
@@ -29,13 +31,14 @@ To resume training from a previous training instance:
 python3 vae_gan.py continue
 ```
 
-### Testing
-To test the functionality of the model:
+### Testing the VAE
+To test the functionality of the VAE:
 ```
 python3 vae_gan.py test
 ```
 
 ### Generation
+To generate images from noise:
 ```
 python3 vae_gan.py generate
 ```
