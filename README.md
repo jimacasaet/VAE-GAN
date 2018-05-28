@@ -1,4 +1,4 @@
-# VAE-GAN
+# Autoencoding beyond pixels using a learned similarity metric
 An implementation of [Autoencoding beyond pixels using a learned similarity metric](https://arxiv.org/pdf/1512.09300.pdf) using Keras. 
 John Rufino Macasaet, Martin Roy Nabus (CoE 197-Z/EE 298)
 
