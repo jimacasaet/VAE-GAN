@@ -4,15 +4,15 @@ John Rufino Macasaet, Martin Roy Nabus (CoE 197-Z/EE 298)
 
 ## Architecture
 ### Encoder
-![Encoder](https://s3-ap-southeast-1.amazonaws.com/celebadataset/vae_cnn_encode.png)
+![Encoder](https://s3-ap-southeast-1.amazonaws.com/celebadataset/vae_cnn_encoder.png)
 ### Decoder
-![Decoder](https://s3-ap-southeast-1.amazonaws.com/celebadataset/vae_cnn_decode.png)
+![Decoder](https://s3-ap-southeast-1.amazonaws.com/celebadataset/vae_cnn_decoder.png)
 ### Discriminator
-![Discriminator](https://s3-ap-southeast-1.amazonaws.com/celebadataset/vae_cnn_discriminato.png)
+![Discriminator](https://s3-ap-southeast-1.amazonaws.com/celebadataset/vae_cnn_discriminator.png)
 ### Generator Model
-![Generator](https://s3-ap-southeast-1.amazonaws.com/celebadataset/vae_cnn_genmode.png)
+![Generator](https://s3-ap-southeast-1.amazonaws.com/celebadataset/vae_cnn_genmodel.png)
 ### Encoder and Decoder Trainer (VAE)
-![Encoder and Decoder Trainer (VAE)](https://s3-ap-southeast-1.amazonaws.com/celebadataset/vae_cnn_vaemode.png)
+![Encoder and Decoder Trainer (VAE)](https://s3-ap-southeast-1.amazonaws.com/celebadataset/vae_cnn_vaemodel.png)
 
 ## Dataset
 The dataset used for the training was the cropped and aligned version of the [Celeb-A Dataset](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html). The dataset features 202,599 images with 10,177 unique identities and annotations for 5 landmark locations and 40 binary attributes per image.
