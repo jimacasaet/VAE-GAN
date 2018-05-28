@@ -14,7 +14,11 @@ John Rufino Macasaet, Martin Roy Nabus (CoE 197-Z/EE 298)
 ### Encoder and Decoder Trainer (VAE)
 ![Encoder and Decoder Trainer (VAE)](https://s3-ap-southeast-1.amazonaws.com/celebadataset/vae_cnn_vaemodel.png)
 
-## Syntax
+## Dataset
+The dataset used for the training was the cropped and aligned version of the [Celeb-A Dataset](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html). The dataset features 202,599 images with 10,177 unique identities and annotations for 5 landmark locations and 40 binary attributes per image.
+![celeba](http://mmlab.ie.cuhk.edu.hk/projects/celeba/intro.png)
+
+## Using the code
 ### Training
 To start the training:
 ```
