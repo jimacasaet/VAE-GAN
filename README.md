@@ -39,5 +39,5 @@ python3 vae_gan.py generate
 ## Results
 
 
-## Recommendations
-While training on the deep learning machines provided, we noticed that the machines were not configured to use `tensorflow-gpu` (i.e. it cannot access NVIDIA cuDNN
+## Recommendations and Pitfalls
+1. While training on the deep learning machines provided, we noticed that the machines were not configured to use `tensorflow-gpu` (i.e. it cannot access NVIDIA cuDNN).
